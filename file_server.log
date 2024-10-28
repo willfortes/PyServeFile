@@ -1,0 +1,71 @@
+2024-10-28 15:17:33,554 - INFO - Visualização de logs acessada.
+2024-10-28 15:18:07,018 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2024-10-28 15:18:07,018 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-28 15:18:07,021 - INFO - Servidor iniciado.
+2024-10-28 15:18:07,075 - INFO - 127.0.0.1 - - [28/Oct/2024 15:18:07] "GET / HTTP/1.1" 200 -
+2024-10-28 15:18:07,398 - INFO - 127.0.0.1 - - [28/Oct/2024 15:18:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-28 15:18:10,359 - INFO - 192.168.1.5 - - [28/Oct/2024 15:18:10] "GET / HTTP/1.1" 200 -
+2024-10-28 15:18:11,576 - INFO - 127.0.0.1 - - [28/Oct/2024 15:18:11] "GET /logs HTTP/1.1" 200 -
+2024-10-28 15:18:14,581 - INFO - Acessou o caminho: D:/
+2024-10-28 15:18:14,583 - INFO - 192.168.1.5 - - [28/Oct/2024 15:18:14] "GET /D:/ HTTP/1.1" 200 -
+2024-10-28 15:18:17,150 - INFO - 127.0.0.1 - - [28/Oct/2024 15:18:17] "GET /logs HTTP/1.1" 200 -
+2024-10-28 15:18:36,940 - INFO - Host copiado para a área de transferência.
+2024-10-28 15:18:47,007 - INFO - Servidor parado.
+2024-10-28 15:18:48,722 - INFO - 127.0.0.1 - - [28/Oct/2024 15:18:48] "GET /logs HTTP/1.1" 200 -
+2024-10-28 15:18:49,511 - INFO - 127.0.0.1 - - [28/Oct/2024 15:18:49] "GET /logs HTTP/1.1" 200 -
+2024-10-28 15:18:49,708 - INFO - 127.0.0.1 - - [28/Oct/2024 15:18:49] "GET /logs HTTP/1.1" 200 -
+2024-10-28 15:18:49,889 - INFO - 127.0.0.1 - - [28/Oct/2024 15:18:49] "GET /logs HTTP/1.1" 200 -
+2024-10-28 15:18:50,085 - INFO - 127.0.0.1 - - [28/Oct/2024 15:18:50] "GET /logs HTTP/1.1" 200 -
+2024-10-28 15:18:50,274 - INFO - 127.0.0.1 - - [28/Oct/2024 15:18:50] "GET /logs HTTP/1.1" 200 -
+2024-10-28 15:18:50,462 - INFO - 127.0.0.1 - - [28/Oct/2024 15:18:50] "GET /logs HTTP/1.1" 200 -
+2024-10-28 15:18:50,661 - INFO - 127.0.0.1 - - [28/Oct/2024 15:18:50] "GET /logs HTTP/1.1" 200 -
+2024-10-28 15:18:50,863 - INFO - 127.0.0.1 - - [28/Oct/2024 15:18:50] "GET /logs HTTP/1.1" 200 -
+2024-10-28 15:18:51,073 - INFO - 127.0.0.1 - - [28/Oct/2024 15:18:51] "GET /logs HTTP/1.1" 200 -
+2024-10-28 15:18:51,270 - INFO - 127.0.0.1 - - [28/Oct/2024 15:18:51] "GET /logs HTTP/1.1" 200 -
+2024-10-28 15:18:51,457 - INFO - 127.0.0.1 - - [28/Oct/2024 15:18:51] "GET /logs HTTP/1.1" 200 -
+2024-10-28 15:18:51,651 - INFO - 127.0.0.1 - - [28/Oct/2024 15:18:51] "GET /logs HTTP/1.1" 200 -
+2024-10-28 15:18:51,841 - INFO - 127.0.0.1 - - [28/Oct/2024 15:18:51] "GET /logs HTTP/1.1" 200 -
+2024-10-28 15:18:52,013 - INFO - 127.0.0.1 - - [28/Oct/2024 15:18:52] "GET /logs HTTP/1.1" 200 -
+2024-10-28 15:19:00,108 - INFO - Servidor parado.
+2024-10-28 15:19:00,108 - INFO - Aplicativo encerrado.
+2024-10-28 15:19:00,108 - ERROR - An error occurred when calling message handler
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\pystray\_win32.py", line 413, in _dispatcher
+    uMsg, lambda w, l: 0)(wParam, lParam) or 0)
+  File "C:\Program Files\Python37\lib\site-packages\pystray\_win32.py", line 224, in _on_notify
+    descriptors[index - 1](self)
+  File "C:\Program Files\Python37\lib\site-packages\pystray\_base.py", line 328, in inner
+    callback(self)
+  File "C:\Program Files\Python37\lib\site-packages\pystray\_base.py", line 453, in __call__
+    return self._action(icon, self)
+  File "app.py", line 144, in exit_app
+    sys.exit()
+SystemExit
+2024-10-28 15:21:07,545 - INFO - Servidor iniciado.
+2024-10-28 15:21:07,550 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2024-10-28 15:21:07,550 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-28 15:21:20,799 - INFO - Servidor parado.
+2024-10-28 15:21:25,298 - INFO - Servidor iniciado.
+2024-10-28 15:21:27,090 - INFO - Acessou o caminho: D:/
+2024-10-28 15:21:27,093 - INFO - 192.168.1.5 - - [28/Oct/2024 15:21:27] "GET /D:/ HTTP/1.1" 200 -
+2024-10-28 15:22:29,456 - INFO - Servidor parado.
+2024-10-28 15:22:29,457 - INFO - Aplicativo encerrado.
+2024-10-28 15:22:29,457 - ERROR - An error occurred when calling message handler
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\pystray\_win32.py", line 413, in _dispatcher
+    uMsg, lambda w, l: 0)(wParam, lParam) or 0)
+  File "C:\Program Files\Python37\lib\site-packages\pystray\_win32.py", line 224, in _on_notify
+    descriptors[index - 1](self)
+  File "C:\Program Files\Python37\lib\site-packages\pystray\_base.py", line 328, in inner
+    callback(self)
+  File "C:\Program Files\Python37\lib\site-packages\pystray\_base.py", line 453, in __call__
+    return self._action(icon, self)
+  File "app.py", line 155, in exit_app
+    sys.exit()
+SystemExit
